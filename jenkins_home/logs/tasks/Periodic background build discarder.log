@@ -1,16 +1,18 @@
-Started at Tue Apr 21 18:52:55 UTC 2020
+Started at Tue Apr 28 03:18:15 UTC 2020
+Processing backup-to-aws
+Offering backup-to-aws to Project Build Discarder
 Processing remote-task
 Offering remote-task to Project Build Discarder
-Finished at Tue Apr 21 18:52:55 UTC 2020. 100ms
-Started at Tue Apr 21 19:52:55 UTC 2020
+Finished at Tue Apr 28 03:18:15 UTC 2020. 4ms
+Started at Tue Apr 28 04:18:15 UTC 2020
+Processing backup-to-aws
+Offering backup-to-aws to Project Build Discarder
 Processing remote-task
 Offering remote-task to Project Build Discarder
-Finished at Tue Apr 21 19:52:55 UTC 2020. 3ms
-Started at Tue Apr 21 20:52:55 UTC 2020
+Finished at Tue Apr 28 04:18:15 UTC 2020. 2ms
+Started at Tue Apr 28 05:18:15 UTC 2020
+Processing backup-to-aws
+Offering backup-to-aws to Project Build Discarder
 Processing remote-task
 Offering remote-task to Project Build Discarder
-Finished at Tue Apr 21 20:52:55 UTC 2020. 2ms
-Started at Tue Apr 21 21:52:55 UTC 2020
-Processing remote-task
-Offering remote-task to Project Build Discarder
-Finished at Tue Apr 21 21:52:55 UTC 2020. 3ms
+Finished at Tue Apr 28 05:18:15 UTC 2020. 2ms

@@ -14,4 +14,13 @@ RUN chown remote_user:remote_user   -R /home/remote_user && \
 
 RUN ssh-keygen -A
 
+RUN yum -y install mysql
+
+RUN yum install -y python3
+
+RUN curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py" && \
+	python3 get-pip.py && \
+	pip install awscli --upgrade
+RUN rm -rf /run/nologin
+
 CMD /usr/sbin/sshd -D
