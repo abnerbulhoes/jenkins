@@ -1,18 +1,6 @@
-Started at Tue Apr 28 03:18:15 UTC 2020
+Started at Mon May 11 02:38:24 UTC 2020
 Processing backup-to-aws
 Offering backup-to-aws to Project Build Discarder
 Processing remote-task
 Offering remote-task to Project Build Discarder
-Finished at Tue Apr 28 03:18:15 UTC 2020. 4ms
-Started at Tue Apr 28 04:18:15 UTC 2020
-Processing backup-to-aws
-Offering backup-to-aws to Project Build Discarder
-Processing remote-task
-Offering remote-task to Project Build Discarder
-Finished at Tue Apr 28 04:18:15 UTC 2020. 2ms
-Started at Tue Apr 28 05:18:15 UTC 2020
-Processing backup-to-aws
-Offering backup-to-aws to Project Build Discarder
-Processing remote-task
-Offering remote-task to Project Build Discarder
-Finished at Tue Apr 28 05:18:15 UTC 2020. 2ms
+Finished at Mon May 11 02:38:24 UTC 2020. 16ms

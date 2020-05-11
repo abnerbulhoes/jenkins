@@ -2,7 +2,9 @@ version: '3'
 services:
   jenkins:
     container_name: jenkins
-    image: jenkins/jenkins
+    image: jenkins-ansible
+    build:
+      context: jenkins-ansible
     ports:
       - "8080:8080"
     volumes:
@@ -14,6 +16,8 @@ services:
     image: remote-host
     build:
       context: centos7
+    volumes:
+      - "$PWD/aws_backup.sh:/tmp/aws_backup.sh"
     networks:
       - net
   db_host: 

@@ -140,3 +140,35 @@ cat ~/.ssh/private_key
 ssh -p 22 -i ~/.ssh/private_key remote_user@remote-host
 ls
 exit
+yum install tzselect
+sudo yum install tzselect
+apt-get install tzselect
+sudo apt-get install tzselect
+su
+passwd root
+apt-get install tzselect
+sudo apt-get install tzselect
+date
+Shell
+echo Europe/Stockholm >/etc/timezone && dpkg-reconfigure -f noninteractive tzdata
+1
+2
+echo Europe/Stockholm >/etc/timezone && dpkg-reconfigure -f noninteractive tzdata
+exit
+ls
+cd ~
+ls
+cd .ssh/
+ls
+cat id_rsa.pub 
+exit
+ansible
+exit
+pwd
+pwd
+ls
+cd ~
+pwd
+ls
+touch abner123456
+exit

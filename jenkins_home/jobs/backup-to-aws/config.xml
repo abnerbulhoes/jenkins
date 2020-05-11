@@ -1,5 +1,6 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <project>
+  <actions/>
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties>
@@ -36,7 +37,7 @@
   <builders>
     <org.jvnet.hudson.plugins.SSHBuilder plugin="ssh@2.6.1">
       <siteName>remote_user@remote_host:22</siteName>
-      <command>/tmp/script.sh $MYSQL_HOST $MYSQL_PASSWORD $DATABASE_NAME $AWS_SECRET_KEY $AWS_BUCKET_NAME</command>
+      <command>/tmp/aws_backup.sh $MYSQL_HOST $MYSQL_PASSWORD $DATABASE_NAME $AWS_SECRET_KEY $AWS_BUCKET_NAME</command>
       <execEachLine>false</execEachLine>
       <hideCommand>false</hideCommand>
     </org.jvnet.hudson.plugins.SSHBuilder>

@@ -1,0 +1,22 @@
+Started by user [8mha:////4Ae/3qArs0oiG/P82UhWwtal4l43wisVv8+Cy/GvB0okAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-to-aws
+[SSH] script:
+MYSQL_HOST="db_host"
+AWS_SECRET_KEY=**********
+MYSQL_PASSWORD=**********
+DATABASE_NAME="testdb"
+AWS_BUCKET_NAME="jenkins-mysql-backup-1989"
+
+/tmp/aws_backup.sh $MYSQL_HOST $MYSQL_PASSWORD $DATABASE_NAME $AWS_SECRET_KEY $AWS_BUCKET_NAME
+
+[SSH] executing...
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+Uploading your db-00-53-26.sql backup
+upload failed: ../../tmp/db-00-53-26.sql to s3://jenkins-mysql-backup-1989/db-00-53-26.sql An error occurred (RequestTimeTooSkewed) when calling the PutObject operation: The difference between the request time and the current time is too large.
+
+[SSH] completed
+[SSH] exit-status: 1
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE
